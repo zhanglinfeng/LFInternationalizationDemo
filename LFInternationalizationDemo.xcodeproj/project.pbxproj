@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D138CE921F5BD792005C0D39 /* UILabel+Internationalization.m in Sources */ = {isa = PBXBuildFile; fileRef = D138CE911F5BD792005C0D39 /* UILabel+Internationalization.m */; };
+		D138CE951F5BD7B3005C0D39 /* UIImage+Internationalization.m in Sources */ = {isa = PBXBuildFile; fileRef = D138CE941F5BD7B3005C0D39 /* UIImage+Internationalization.m */; };
 		D13CAC721F5AFF0000FB5DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CAC711F5AFF0000FB5DCA /* main.m */; };
 		D13CAC751F5AFF0000FB5DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CAC741F5AFF0000FB5DCA /* AppDelegate.m */; };
 		D13CAC781F5AFF0000FB5DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CAC771F5AFF0000FB5DCA /* ViewController.m */; };
@@ -15,6 +17,13 @@
 		D13CAC801F5AFF0000FB5DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13CAC7E1F5AFF0000FB5DCA /* LaunchScreen.storyboard */; };
 		D13CAC8B1F5AFF0000FB5DCA /* LFInternationalizationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CAC8A1F5AFF0000FB5DCA /* LFInternationalizationDemoTests.m */; };
 		D13CAC961F5AFF0100FB5DCA /* LFInternationalizationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CAC951F5AFF0100FB5DCA /* LFInternationalizationDemoUITests.m */; };
+		D13CACA71F5B008C00FB5DCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13CACA91F5B008C00FB5DCA /* InfoPlist.strings */; };
+		D13CACAD1F5B02BE00FB5DCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D13CACAF1F5B02BE00FB5DCA /* Localizable.strings */; };
+		D13CACB31F5B144A00FB5DCA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CACB21F5B144A00FB5DCA /* HomeViewController.m */; };
+		D13CACC41F5B289600FB5DCA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D13CACC21F5B289600FB5DCA /* icon.png */; };
+		D13CACC51F5B289600FB5DCA /* 图标.png in Resources */ = {isa = PBXBuildFile; fileRef = D13CACC31F5B289600FB5DCA /* 图标.png */; };
+		D13CACDA1F5B39FB00FB5DCA /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CACD91F5B39FB00FB5DCA /* MainTabBarController.m */; };
+		D13CACE31F5B444D00FB5DCA /* NSBundle+LF.m in Sources */ = {isa = PBXBuildFile; fileRef = D13CACE21F5B444D00FB5DCA /* NSBundle+LF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D138CE901F5BD792005C0D39 /* UILabel+Internationalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Internationalization.h"; sourceTree = "<group>"; };
+		D138CE911F5BD792005C0D39 /* UILabel+Internationalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Internationalization.m"; sourceTree = "<group>"; };
+		D138CE931F5BD7B3005C0D39 /* UIImage+Internationalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Internationalization.h"; sourceTree = "<group>"; };
+		D138CE941F5BD7B3005C0D39 /* UIImage+Internationalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Internationalization.m"; sourceTree = "<group>"; };
 		D13CAC6D1F5AFF0000FB5DCA /* LFInternationalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFInternationalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13CAC711F5AFF0000FB5DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D13CAC731F5AFF0000FB5DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,21 @@
 		D13CAC911F5AFF0000FB5DCA /* LFInternationalizationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFInternationalizationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13CAC951F5AFF0100FB5DCA /* LFInternationalizationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFInternationalizationDemoUITests.m; sourceTree = "<group>"; };
 		D13CAC971F5AFF0100FB5DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13CACA41F5B000100FB5DCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D13CACA81F5B008C00FB5DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D13CACAA1F5B00DA00FB5DCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D13CACAE1F5B02BE00FB5DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D13CACB01F5B02C000FB5DCA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D13CACB11F5B144A00FB5DCA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D13CACB21F5B144A00FB5DCA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D13CACC21F5B289600FB5DCA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D13CACC31F5B289600FB5DCA /* 图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图标.png"; sourceTree = "<group>"; };
+		D13CACD81F5B39FB00FB5DCA /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		D13CACD91F5B39FB00FB5DCA /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		D13CACE11F5B444D00FB5DCA /* NSBundle+LF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LF.h"; sourceTree = "<group>"; };
+		D13CACE21F5B444D00FB5DCA /* NSBundle+LF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LF.m"; sourceTree = "<group>"; };
+		D1FE5BBE1F5C187800B52D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D1FE5BC01F5C187C00B52D7A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +129,28 @@
 		D13CAC6F1F5AFF0000FB5DCA /* LFInternationalizationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D13CACC21F5B289600FB5DCA /* icon.png */,
+				D13CACC31F5B289600FB5DCA /* 图标.png */,
+				D13CACE11F5B444D00FB5DCA /* NSBundle+LF.h */,
+				D13CACE21F5B444D00FB5DCA /* NSBundle+LF.m */,
+				D138CE901F5BD792005C0D39 /* UILabel+Internationalization.h */,
+				D138CE911F5BD792005C0D39 /* UILabel+Internationalization.m */,
+				D138CE931F5BD7B3005C0D39 /* UIImage+Internationalization.h */,
+				D138CE941F5BD7B3005C0D39 /* UIImage+Internationalization.m */,
 				D13CAC731F5AFF0000FB5DCA /* AppDelegate.h */,
 				D13CAC741F5AFF0000FB5DCA /* AppDelegate.m */,
 				D13CAC761F5AFF0000FB5DCA /* ViewController.h */,
 				D13CAC771F5AFF0000FB5DCA /* ViewController.m */,
+				D13CACB11F5B144A00FB5DCA /* HomeViewController.h */,
+				D13CACB21F5B144A00FB5DCA /* HomeViewController.m */,
+				D13CACD81F5B39FB00FB5DCA /* MainTabBarController.h */,
+				D13CACD91F5B39FB00FB5DCA /* MainTabBarController.m */,
 				D13CAC791F5AFF0000FB5DCA /* Main.storyboard */,
 				D13CAC7C1F5AFF0000FB5DCA /* Assets.xcassets */,
 				D13CAC7E1F5AFF0000FB5DCA /* LaunchScreen.storyboard */,
 				D13CAC811F5AFF0000FB5DCA /* Info.plist */,
+				D13CACAF1F5B02BE00FB5DCA /* Localizable.strings */,
+				D13CACA91F5B008C00FB5DCA /* InfoPlist.strings */,
 				D13CAC701F5AFF0000FB5DCA /* Supporting Files */,
 			);
 			path = LFInternationalizationDemo;
@@ -228,6 +270,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D13CAC641F5AFF0000FB5DCA;
 			productRefGroup = D13CAC6E1F5AFF0000FB5DCA /* Products */;
@@ -246,7 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13CACAD1F5B02BE00FB5DCA /* Localizable.strings in Resources */,
+				D13CACC41F5B289600FB5DCA /* icon.png in Resources */,
 				D13CAC801F5AFF0000FB5DCA /* LaunchScreen.storyboard in Resources */,
+				D13CACA71F5B008C00FB5DCA /* InfoPlist.strings in Resources */,
+				D13CACC51F5B289600FB5DCA /* 图标.png in Resources */,
 				D13CAC7D1F5AFF0000FB5DCA /* Assets.xcassets in Resources */,
 				D13CAC7B1F5AFF0000FB5DCA /* Main.storyboard in Resources */,
 			);
@@ -273,9 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13CACE31F5B444D00FB5DCA /* NSBundle+LF.m in Sources */,
 				D13CAC781F5AFF0000FB5DCA /* ViewController.m in Sources */,
+				D13CACDA1F5B39FB00FB5DCA /* MainTabBarController.m in Sources */,
 				D13CAC751F5AFF0000FB5DCA /* AppDelegate.m in Sources */,
+				D138CE921F5BD792005C0D39 /* UILabel+Internationalization.m in Sources */,
 				D13CAC721F5AFF0000FB5DCA /* main.m in Sources */,
+				D13CACB31F5B144A00FB5DCA /* HomeViewController.m in Sources */,
+				D138CE951F5BD7B3005C0D39 /* UIImage+Internationalization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +367,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D13CAC7A1F5AFF0000FB5DCA /* Base */,
+				D1FE5BBE1F5C187800B52D7A /* en */,
+				D1FE5BC01F5C187C00B52D7A /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,8 +377,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				D13CAC7F1F5AFF0000FB5DCA /* Base */,
+				D13CACA41F5B000100FB5DCA /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D13CACA91F5B008C00FB5DCA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13CACA81F5B008C00FB5DCA /* en */,
+				D13CACAA1F5B00DA00FB5DCA /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D13CACAF1F5B02BE00FB5DCA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13CACAE1F5B02BE00FB5DCA /* en */,
+				D13CACB01F5B02C000FB5DCA /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -383,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -509,6 +584,7 @@
 				D13CAC9C1F5AFF0100FB5DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D13CAC9D1F5AFF0100FB5DCA /* Build configuration list for PBXNativeTarget "LFInternationalizationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +593,7 @@
 				D13CAC9F1F5AFF0100FB5DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D13CACA01F5AFF0100FB5DCA /* Build configuration list for PBXNativeTarget "LFInternationalizationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +602,7 @@
 				D13CACA21F5AFF0100FB5DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

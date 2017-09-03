@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "跟随系统语言"; ObjectID = "3dH-D7-kce"; */
+"3dH-D7-kce.normalTitle" = "跟随系统语言";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "6O5-4B-cDn"; */
+"6O5-4B-cDn.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "账号"; ObjectID = "EPf-WB-7tf"; */
+"EPf-WB-7tf.text" = "账号";
+
+/* Class = "UIButton"; normalTitle = "中文"; ObjectID = "M1U-tn-nzH"; */
+"M1U-tn-nzH.normalTitle" = "中文";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "N4z-JC-7sS"; */
+"N4z-JC-7sS.title" = "首页";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "XJ2-j6-mvX"; */
+"XJ2-j6-mvX.title" = "首页";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "del-EC-Lkz"; */
+"del-EC-Lkz.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "英文"; ObjectID = "xfJ-BW-ADQ"; */
+"xfJ-BW-ADQ.normalTitle" = "英文";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "y0L-xO-hGG"; */
+"y0L-xO-hGG.title" = "我的";

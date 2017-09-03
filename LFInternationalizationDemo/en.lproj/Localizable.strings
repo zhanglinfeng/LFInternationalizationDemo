@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  LFInternationalizationDemo
+
+  Created by 张林峰 on 2017/9/2.
+  Copyright © 2017年 张林峰. All rights reserved.
+*/
+
+"账号" = "Account";
+"登录" = "Login";
+"图标" = "icon";
+//"首页" = "Home";
+//"我的" = "My";
+//"跟随系统语言" = "Auto";
+//"中文" = "Chinese";
+//"英文" = "English";
+
